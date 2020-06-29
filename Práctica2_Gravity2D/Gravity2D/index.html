@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Gravity2D</title>
+    <meta charset="utf-8">
+<!--     <script type="text/javascript" src="../libs/three.min.js"></script> -->
+<!-- Se usa la version de three que viene con physijs -->
+    <script type="text/javascript" src="./physijs/three.min.js"></script>
+    <script type="text/javascript" src="./physijs/physi.js"></script>
+<!-- Todo lo demás igual -->
+    <script type="text/javascript" src="../libs/jquery.js"></script>
+    <script type="text/javascript" src="../libs/Octree.js"></script>
+    <script type="text/javascript" src="../libs/dat.gui.js"></script>
+    <script type="text/javascript" src="../libs/TrackballControls.js"></script>
+    <script type="text/javascript" src="../libs/threex.collider.js"></script>
+    <script type="text/javascript" src="../libs/threex.colliderhelper.js"></script>
+    <script type="text/javascript" src="../libs/threex.collidersystem.js"></script>
+    <script type="text/javascript" src="Body.js"></script>
+    <script type="text/javascript" src="Box.js"></script>
+    <script type="text/javascript" src="Star.js"></script>
+    <script type="text/javascript" src="Wall.js"></script>
+    <script type="text/javascript" src="Thorn.js"></script>
+    <script type="text/javascript" src="MyPhysiScene.js"></script>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Div which will hold the Output -->
+<div id="WebGL-output">
+</div>
+
+<div style="position:absolute; left:100px; top:10px" id="Messages">
+  <h2>Pulsa  Q  para obtener ayuda</h2>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h2 id=points style="color:white"></h2>
+</div>
+
+</body>
+</html>
